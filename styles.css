@@ -1,0 +1,86 @@
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#instructions, #start-button {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#game-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#webcam-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    position: relative;
+}
+
+#pista {
+    position: absolute;
+    top: -80px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#result-text {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#next-button {
+    display: none;
+}
+
+#footer-text {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#hint-container {
+    margin-top: 10px;
+    font-size: 16px;
+    display: none;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#loading {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    #webcam-container canvas {
+        width: 90vw !important;
+        height: auto !important;
+    }
+}
