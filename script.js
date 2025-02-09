@@ -109,7 +109,7 @@ document.getElementById("next-button").addEventListener("click", () => {
         document.getElementById("pista").innerText = "¡Felicidades! Se acabó el juego.";
         document.getElementById("result-text").innerText = "";
         document.getElementById("next-button").style.display = "none";
-        document.getElementById("footer-text").innerText = "Recuerdas los códigos...";
+        document.getElementById("footer-text").innerText = "Recuerdas los códigos, bueno en el link cambia JuegoImagenes por el codigo en orden de aparecion";
         document.getElementById("hint-container").style.display = "none";
     }
 });
