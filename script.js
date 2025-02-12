@@ -6,16 +6,9 @@ const tasks = [
     { 
         message: "Verificando identidad de daylight", 
         target: "angie", 
-        code: "v",
+        code: "val",
         footer: "Comezando con el amor de mi vida",
         hint: "Eres tu"
-    },
-    { 
-        message: "Muestra la cadena de restaurantes que más te gusta comer conmigo", 
-        target: "mcdonald", 
-        code: "al",
-        footer: "Siempre amo verte comer, sobretodo en este lugar, amo verte sonreir y lo feliz que te pones. Si no encuentras buscalo en internet y muestra el logo",
-        hint: "Enserio? una pista para esto? Bueno Mcbacon"
     },
     { 
         message: "Muestra primera cita (entre comilas) te di regale recipiente muy especial para ti", 
